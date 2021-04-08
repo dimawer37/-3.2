@@ -1,15 +1,15 @@
 public class Main {
     public static void main (String[] args){
-        int clientAccount = 1200;
+        int clientAccount = 1001;
         int depositAmount = 100;
-        int bonus = 1;
-        int balance = clientAccount / depositAmount * bonus + clientAccount;
+        int balance = clientAccount + depositAmount;
+        int bonus = balance / depositAmount * 1;
 
         if(balance > 1000){
-            System.out.println (balance);
+            System.out.println (bonus);
         }
-        else {
-            System.out.println (clientAccount + depositAmount);
+        else{
+
         }
     }
 }
