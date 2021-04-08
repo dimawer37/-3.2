@@ -1,6 +1,6 @@
 public class Main {
     public static void main (String[] args){
-        int clientAccount = 1001;
+        int clientAccount = 1100;
         int depositAmount = 100;
         int balance = clientAccount + depositAmount;
         int bonus = balance / depositAmount * 1;
